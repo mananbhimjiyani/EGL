@@ -1,20 +1,6 @@
 import turtle
 from turtle import Screen
 import math
-from tkinter import *
-from tkinter import ttk
-
-win = Tk()
-win.geometry("750x250")
-win.title("EGL Project")
-lab_o = Label(win, text="Please enter if the 1. line is in front of VP or 2. inclined to VP:- ", font=("bold", 20))
-lab_o.place(x=90, y=53)
-entry_1 = Entry(win)
-entry_1.place(x=240, y=130)
-ttk.Button(win, text="Hello, Tkinter")
-def onClick():
-
-win.mainloop()
 
 
 def lineInFrontOfVP():
